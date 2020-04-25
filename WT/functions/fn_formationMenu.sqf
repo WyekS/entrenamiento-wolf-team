@@ -1,5 +1,5 @@
 
-if (count _this == 1)
+if (count _this == 1) then
 {
 	_selection = _this select 0;
 
@@ -12,13 +12,13 @@ if (count _this == 1)
 			this addAction["Linea Combate",{[true, "Forms"] call WT_fnc_formationSelector; [false, "Form31"] call WT_fnc_formationSelector;}];  
 			this addAction["Linea Escalonada", {[true, "Forms"] call WT_fnc_formationSelector; [false, "Form32"] call WT_fnc_formationSelector;}];  
 			this addAction["Cuña", {[true, "Forms"] call WT_fnc_formationSelector; [false, "Form4"] call WT_fnc_formationSelector;}];  
-			this addAction["Cuña Invertida", {[true, "Forms"] call WT_fnc_formationSelector; [false, "Form41"] call WT_fnc_formationSelector;}];}
+			this addAction["Cuña Invertida", {[true, "Forms"] call WT_fnc_formationSelector; [false, "Form41"] call WT_fnc_formationSelector;}];
 		};
 		case 1: {
 			this addAction["Limpiar", {[true, "Forms"] call WT_fnc_formationSelector;}];
 			this addAction["Espiga", {[true, "Forms"] call WT_fnc_formationSelector;[false, "Form5"] call WT_fnc_formationSelector;}];
 			this addAction["Espiral 1", {[true, "Forms"] call WT_fnc_formationSelector;[false, "Form60"] call WT_fnc_formationSelector;}];
-			this addAction["Espiral 2", {[true, "Forms"] call WT_fnc_formationSelector;[false, "Form61"] call WT_fnc_formationSelector;}];
+			this addAction["Espiral 2", {[true, "Forms"] call WT_fnc_formationSelector;[false, "Form61"] call WT_fnc_formationSelector;}]; 
 			this addAction["Espiral 3", {[true, "Forms"] call WT_fnc_formationSelector;[false, "Form62"] call WT_fnc_formationSelector;}];
 			this addAction["Urbano", {[true, "Forms"] call WT_fnc_formationSelector;[false, "form7base"] call WT_fnc_formationSelector;}];
 			this addAction["Enemigos", {[false, "FormHostiles"] call WT_fnc_formationSelector;}]; 
