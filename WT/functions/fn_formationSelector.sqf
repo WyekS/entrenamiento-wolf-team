@@ -4,6 +4,6 @@
 
 params ["_hide", "_group"];
 {
-  _x hideobject _hide; 
+  _x hideObjectGlobal _hide; 
 } forEach ((getMissionLayerEntities _group) select 0); 
 
