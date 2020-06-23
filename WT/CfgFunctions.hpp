@@ -12,6 +12,7 @@ class WT
 		class resetTargets {};
 		class holdTargets {};
 		class formationMenu{};
+		class formationMoutMenu{};
 		class formationSelector{};
 	};
 };
